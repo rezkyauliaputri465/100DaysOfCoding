@@ -3,7 +3,7 @@ public class Day004 {
     byte Umur = 19;
     short Tahun = 2007;
     int JumlahKeluarga = 4;
-    long Panjang = 11567; 
+    long Panjang = 1234567890123L; 
 
     System.out.println("Umur : " + Umur );
     System.out.println("Tahun : " + Tahun );
