@@ -1,6 +1,6 @@
 public class Day005 {
     public static void main(String[] args) {
-        double Nilai = 97.88d;
+        double Nilai = 97.88;
         float Suhu = 20.55f;
        
         System.out.println("Nilai  : " + Nilai);
