@@ -1,11 +1,16 @@
-public class Day25 {
+import java.util.Scanner;
+public class day25 {
     public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        
+        final double PI = 3.14;
+        System.out.print("Masukkan jari-jari lingkaran : ");
+        String JariJari = in.nextLine();
+        double r = Double.parseDouble(JariJari);
+        double luasAwal = (PI * r * r * 2);
+        double luasAkhir = luasAwal - (luasAwal * 2);
+        System.out.printf("Hasil akhir (String): %s%n", String.valueOf(luasAkhir));
 
-        double jariJari = 7;
-        double pi = 3.14;
-        double luas = pi * jariJari * jariJari;
-
-        System.out.println("Jari-jari : " + jariJari);
-        System.out.println("Luas lingkaran : " + luas);
+        in.close();
     }
 }
